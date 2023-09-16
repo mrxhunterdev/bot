@@ -10,9 +10,10 @@ app = Client(
     bot_token=bot_token
 )
 
-@app.on_message(filters.private)
-async def hello(client, message):
-    await message.reply("Hello from Pyrogram!")
 
+#@app.on_message(filters.private)
+#async def hello(client, message):
+ #   await message.reply("Hello from Pyrogram!")
+###
 
 app.run()
